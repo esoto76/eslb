@@ -1,0 +1,26 @@
+{
+  "name": "eslb-monorepo",
+  "description": "es library builder - utils & helpers",
+  "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
+  "license": "ISC",
+  "packageManager": "pnpm@7.1.8",
+  "private": true,
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=7"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.40",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/eslb.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/esoto76/eslb/issues"
+  },
+  "homepage": "https://github.com/esoto76/eslb#readme"
+}
