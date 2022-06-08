@@ -1,4 +1,4 @@
-import { ESLBFormats, ESLBInputObjOption } from "@dTypes";
+import { ESBuildFormats, ESBuildInputObjOption } from "@dTypes";
 
 export const BDIR: string = "src";
 
@@ -16,6 +16,6 @@ export const EXTENSIONS: string[] = [
 
 export const FNAME: string = "index.ts";
 
-export const FORMATS: ESLBFormats = ["cjs", "es"];
+export const FORMATS: ESBuildFormats = ["cjs", "es"];
 
-export const INPUT: ESLBInputObjOption = { index: `${BDIR}/${FNAME}` };
+export const INPUT: ESBuildInputObjOption = { index: `${BDIR}/${FNAME}` };
