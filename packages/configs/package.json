@@ -1,0 +1,43 @@
+{
+  "name": "@eslb/configs",
+  "version": "0.0.1-alpha.1",
+  "description": "es library builder - configs",
+  "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.js",
+  "type": "commonjs",
+  "files": [
+    "./dist/**/*"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -cw"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.41",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "keywords": [
+    "eslb/configs",
+    "eslb-configs",
+    "es-lib-builder-configs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/eslb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esoto76/eslb/issues"
+  },
+  "homepage": "https://github.com/esoto76/eslb/tree/main/packages/configs#readme"
+}
