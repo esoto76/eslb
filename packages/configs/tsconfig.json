@@ -10,7 +10,8 @@
     "types": ["node"],
     "paths": {
       "@/*": ["./src/*"],
-      "@consts": ["./src/consts/index.ts"]
+      "@consts": ["./src/consts/index.ts"],
+      "@dTypes": ["./src/dTypes/index.ts"]
     }
   },
   "include": ["src/**/*.ts"],

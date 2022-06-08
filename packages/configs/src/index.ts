@@ -4,3 +4,4 @@ export {
   EXTENSIONS as extensions,
   FNAME as fName,
 } from "@consts";
+export * from "@dTypes";

@@ -45,6 +45,10 @@ const entries = [
     find: "@consts",
     replacement: resolve(root, `${DNAME}/consts/${FNAME}`),
   },
+  {
+    find: "@dTypes",
+    replacement: resolve(root, `${DNAME}/dTypes/${FNAME}`),
+  },
 ];
 
 const OKeys = (obj) => Object.keys(obj);
