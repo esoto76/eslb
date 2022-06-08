@@ -4,5 +4,6 @@ export {
   EXTENSIONS as extensions,
   FNAME as fName,
   FORMATS as formats,
+  INPUT as input,
 } from "@consts";
 export * from "@dTypes";
