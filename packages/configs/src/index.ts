@@ -1,2 +1,6 @@
 export const Name: string = "@eslb/configs";
-export * from "@consts";
+export {
+  BDIR as bDir,
+  EXTENSIONS as extensions,
+  FNAME as fName,
+} from "@consts";

@@ -1,4 +1,6 @@
-export const extensions: string[] = [
+export const BDIR: string = "src";
+
+export const EXTENSIONS: string[] = [
   ".mjs",
   ".js",
   ".jsx",
@@ -9,3 +11,5 @@ export const extensions: string[] = [
   ".tsx",
   ".vue",
 ];
+
+export const FNAME: string = "index.ts";
