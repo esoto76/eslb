@@ -12,6 +12,10 @@ const input = {
   index: "./src/index.ts",
 };
 
+const DNAME = "src";
+
+const FNAME = "index.ts";
+
 const formats = ["cjs", "es"];
 
 const external = [];
@@ -35,7 +39,11 @@ const customResolver = Resolve({ extensions });
 const entries = [
   {
     find: "@/",
-    replacement: resolve(root, "src"),
+    replacement: resolve(root, DNAME),
+  },
+  {
+    find: "@consts",
+    replacement: resolve(root, `${DNAME}/consts/${FNAME}`),
   },
 ];
 

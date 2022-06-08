@@ -9,7 +9,8 @@
     "baseUrl": ".",
     "types": ["node"],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@consts": ["./src/consts/index.ts"]
     }
   },
   "include": ["src/**/*.ts"],
