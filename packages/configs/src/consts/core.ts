@@ -1,3 +1,5 @@
+import { ESLBFormats } from "@dTypes";
+
 export const BDIR: string = "src";
 
 export const EXTENSIONS: string[] = [
@@ -13,3 +15,5 @@ export const EXTENSIONS: string[] = [
 ];
 
 export const FNAME: string = "index.ts";
+
+export const FORMATS: ESLBFormats = ["cjs", "es"];
