@@ -3,7 +3,7 @@
   "description": "es library builder - utils & helpers",
   "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
   "license": "ISC",
-  "packageManager": "pnpm@7.1.9",
+  "packageManager": "pnpm@7.2.0",
   "private": true,
   "engines": {
     "node": ">=10",
