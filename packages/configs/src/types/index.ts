@@ -1,21 +1,5 @@
-import type { InputOption, ModuleFormat, OutputOptions } from "rollup";
-
-export type ESLBExtension =
-  | ".mjs"
-  | ".js"
-  | ".jsx"
-  | ".json"
-  | ".sass"
-  | ".scss"
-  | ".ts"
-  | ".tsx"
-  | ".vue";
-
-export type ESLBFormats = ModuleFormat | ModuleFormat[];
-
-export type ESLBInputOption = { [entryAlias: string]: string };
-
-export type ESLBRInputOption = InputOption;
+import type { OutputOptions } from "rollup";
+import { ESLBExtension, ESLBFormats, ESLBInputOption } from "./core";
 
 export type ESLBOutputOptions = Partial<
   Omit<
@@ -34,3 +18,5 @@ export interface ESLBuildOptions {
   modFileName: string;
   output: ESLBOutputOptions;
 }
+
+export * from "./core";
