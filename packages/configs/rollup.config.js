@@ -42,12 +42,8 @@ const entries = [
     replacement: resolve(root, DNAME),
   },
   {
-    find: "@consts",
-    replacement: resolve(root, `${DNAME}/consts/${FNAME}`),
-  },
-  {
-    find: "@dTypes",
-    replacement: resolve(root, `${DNAME}/dTypes/${FNAME}`),
+    find: "@output",
+    replacement: resolve(root, `${DNAME}/output/${FNAME}`),
   },
 ];
 
