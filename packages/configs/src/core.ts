@@ -1,3 +1,4 @@
+import type { ExternalOption } from "rollup";
 import { ESLBExtension, ESLBFormats, ESLBInputOption } from "./types";
 
 export const BDir: string = "src";
@@ -13,6 +14,8 @@ export const Extensions: string[] = [
   ".tsx",
   ".vue",
 ];
+
+export const External: ExternalOption = [];
 
 export const ModFileExt: ESLBExtension = ".ts";
 
