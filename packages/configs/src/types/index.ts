@@ -20,3 +20,4 @@ export interface ESLBuildOptions {
 }
 
 export * from "./core";
+export * from "./rollup";
