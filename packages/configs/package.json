@@ -23,10 +23,10 @@
     "build:watch": "rollup -cw"
   },
   "dependencies": {
-    "@types/node": "^17.0.44",
+    "@types/node": "^18.0.0",
     "rollup": "^2.75.6",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.4"
   },
   "keywords": [
     "eslb/configs",
